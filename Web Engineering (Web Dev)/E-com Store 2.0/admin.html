@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+
+    <h1>Admin Panel</h1>
+    <form id="add-product-form">
+        <input type="text" id="product-name" placeholder="Product Name" required>
+        <input type="number" id="product-price" placeholder="Price" required>
+        <input type="file" id="product-image" required>
+        <button type="submit">Add Product</button>
+    </form>
+
+    <script>
+        document.getElementById("add-product-form").addEventListener("submit", (e) => {
+            e.preventDefault();
+            alert("Product Added Successfully!");
+        });
+    </script>
+</body>
+</html>

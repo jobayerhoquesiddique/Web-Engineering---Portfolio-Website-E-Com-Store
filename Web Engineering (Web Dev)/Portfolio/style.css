@@ -1,0 +1,88 @@
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #222;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    background: white;
+    color: black;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Projects Section */
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact */
+#contact {
+    background: #222;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+form input, form textarea {
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
