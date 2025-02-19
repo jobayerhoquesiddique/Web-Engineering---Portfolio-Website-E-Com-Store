@@ -28,7 +28,7 @@ A modern, fully responsive **portfolio website** built using **HTML, CSS, and Ja
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/portfolio.git
+   git clone https://github.com/jobayerhoquesddique
    ```
 2. Open `index.html` in your browser.
 3. Customize the content and styles as needed.
@@ -66,7 +66,7 @@ A fully responsive **e-commerce website** built using **HTML, CSS, and JavaScrip
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/ecom-store.git
+   git clone https://github.com/jobayerhoquesiddique
    ```
 2. Open `index.html` in your browser.
 3. Customize product listings and features as needed.
